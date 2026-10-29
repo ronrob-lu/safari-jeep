@@ -133,7 +133,7 @@ local VEHICLE_DEFS = {
         selectionbox     = {-1.30, 0.0, -1.98, 1.30, 1.80, 2.04},
         driver_offset    = {x =  4.8, y = 8.6, z = -0.6},
         passenger_offset = {x = -4.8, y = 8.6, z = -0.6},
-        fpv_eye_y        = 5.2, -- 3 blocks higher FPV view aligned to player seat
+        fpv_eye_y        = 10.2, -- 3 blocks higher FPV view aligned to player seat
         hide_player      = false,
         exhaust_offset   = {x = -0.48, y = 0.45, z = -1.8},
         hud_title        = "SAFARI JEEP",
@@ -157,7 +157,7 @@ local VEHICLE_DEFS = {
         -- Driver on steering wheel side (3.5), passenger (-3.5), FPV aligned to seat + 3 blocks higher (5.2)
         driver_offset    = {x =  3.5, y = 6.8, z = -4.0},
         passenger_offset = {x = -3.5, y = 6.8, z = -4.0},
-        fpv_eye_y        = 5.2,
+        fpv_eye_y        = 8.2,
         hide_player      = false,
         exhaust_offset   = {x = -0.4, y = 0.35, z = -1.8},
         hud_title        = "GAZ-67",
@@ -202,7 +202,7 @@ local VEHICLE_DEFS = {
         selectionbox     = {-1.15, 0.0, -1.75, 1.15, 1.70, 1.65},
         driver_offset    = {x =  4.9, y = 6.5, z = -1.9},
         passenger_offset = {x = -4.9, y = 6.5, z = -1.9},
-        fpv_eye_y        = 5.2,
+        fpv_eye_y        = 8.2,
         hide_player      = false,
         exhaust_offset   = {x = -0.50, y = 0.30, z = -1.75},
         hud_title        = "4x4 JEEP",
